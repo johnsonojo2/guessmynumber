@@ -81,6 +81,9 @@ h1 {
   top: 2rem;
   left: 2rem;
 }
+.again:focus {
+  outline: none;
+}
 
 .guess {
   background: none;
