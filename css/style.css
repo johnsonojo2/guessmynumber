@@ -11,11 +11,16 @@ html {
   box-sizing: border-box;
 }
 
-body {
+.bods {
   font-family: 'Press Start 2P', sans-serif;
   color: #feddbe;
   background: #0a1931;
   /* background-color: #60b347; */
+}
+.bod {
+  font-family: 'Press Start 2P', sans-serif;
+  background: #60b347;
+  color: #eee;
 }
 
 /* LAYOUT */
@@ -68,6 +73,18 @@ h1 {
   left: 50%;
   transform: translate(-50%, 50%);
 }
+.numberr {
+  background: #eee;
+  color: #333;
+  font-size: 6rem;
+  width: 30rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
 
 .between {
   font-size: 1.4rem;
@@ -97,6 +114,10 @@ h1 {
   display: block;
   margin-bottom: 3rem;
 }
+
+/* .guesss {
+  border: 4px solid #eee;
+} */
 .guess:focus {
   outline: none;
 }
